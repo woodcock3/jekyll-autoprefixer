@@ -1,3 +1,4 @@
+# coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jekyll/autoprefixer/version'
@@ -18,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.6'
   spec.add_runtime_dependency 'autoprefixer-rails', '~> 9.3'
   spec.add_development_dependency 'jekyll', '~> 4.2'
-  spec.add_development_dependency "bundler", "~> 2.2.15"
+  spec.add_development_dependency "bundler", "~> 2.2.16"
 end
