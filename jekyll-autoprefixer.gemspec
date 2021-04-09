@@ -3,6 +3,14 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jekyll/autoprefixer/version'
 
+ENV["LANG"]
+#=> "UTF-8"
+Encoding.default_external
+#=> #<Encoding:UTF-8>
+
+$ LANG=C ruby -e 'p Encoding.default_external'
+#<Encoding:US-ASCII>
+
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-autoprefixer"
   spec.version       = Jekyll::Autoprefixer::VERSION
