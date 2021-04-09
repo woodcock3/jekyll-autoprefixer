@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["v.wochnik@gmail.com"]
   spec.description   = %q{Autoprefixer integration for Jekyll}
   spec.summary       = %q{This plugin provides simple autoprefixer support for Jekyll.}
-  spec.homepage      = "https://github.com/vwochnik/jekyll-autoprefixer"
+  spec.homepage      = "https://github.com/woodcock3/jekyll-autoprefixer"
   spec.license       = "MIT"
 
   spec.files         = [*Dir["lib/**/*.rb"], "README.md", "LICENSE.md"]
