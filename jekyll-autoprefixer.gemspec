@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.files         = [*Dir["lib/**/*.rb"], "README.md", "LICENSE.md"]
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = '>= 2.6'
+  spec.required_ruby_version = '>= 2.6.7'
   spec.add_runtime_dependency 'autoprefixer-rails'
   spec.add_development_dependency 'jekyll', '~> 4.2'
   spec.add_development_dependency "bundler", "~> 2.2.16"
